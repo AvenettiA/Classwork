@@ -9,6 +9,8 @@
 <html>
 <!--This is the head. Things not on the main body of the page go here.-->
 <head>
+    <!-- We need to link the JS File with the HTML File so we can use the JS resources.-->
+    <script src="code.js"></script>
     <!--The title at the top of the window bar-->
     <title>
          Blake Avenetti's Page
@@ -34,7 +36,27 @@
             <a href="./index.html"> Home</a><br>
           <a href="./boards.html"> Boards</a><br>
         </nav>
-    <p style="text-align: center;">This is a paragraph about me. I am a student at UAT.</p>
+    <p style="text-align: center;">This is a paragraph about me.
+         I am a student at UAT.</p>
+         <br>
+         <br>
+         <br>
+
+        <h2>
+        Welcome to my Craps game!</h2>
+        Die 1 result: <div id="die1Res">Press "play craps" to start game</div> <br>
+        Die 2 result: <div id="die2Res">Press "play craps" to start game</div> <br>
+        Sum of the dice: <div id="diceSum">Press "play craps" to start game</div> <br>
+        Game Result: <div id="gameresult">Press "play craps" to start game</div> <br>
+        <br>
+        <button onclick="playcraps();">Play Craps!</button> <br>
+        <br>
+
+
+
+
+
+
     <footer style="text-align: center;"> 
         <h2>Blake Avenetti</h2>
         2625 W. Baseline Road <br>
