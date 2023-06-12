@@ -1,0 +1,16 @@
+/* These are the body style elements */
+body{
+    background-color: gray;
+}
+/* modify the picture style*/
+#pic{
+    text-align: center;
+}
+/* modify button style*/
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: bisque;
+   border-radius: 10px;
+   border-color: black;
+}
